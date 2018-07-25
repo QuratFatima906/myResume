@@ -25,11 +25,12 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #10171a;
+    color:#f1631a;
 }
 
 a:focus {
     text-decoration: none;
+
 }
 
 p {
@@ -44,16 +45,17 @@ p {
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
-    background: #47384c; 
+    background: #94d3c8; 
 
 }
 
 .sidebar-wrapper {
 
-  background: #94D3C8; /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to bottom, #101010 , #47384c);
-  background: linear-gradient(to bottom, #101010 , #47384c);*/
-
+  background: #94d3c8;
+  /*fallback for old browsers */
+  /*background: -webkit-linear-gradient(to bottom, #101010 , #2c2c2c);
+  background: linear-gradient(to bottom, #101010 , #2c2c2c);
+*/
 
     width: 290px;
     position: absolute;
@@ -65,6 +67,10 @@ p {
 
 .sidebar-wrapper a {
     color: #fff;
+}
+
+.sidebar-wrapper a:hover {
+    color: #26756a;
 }
 
 .sidebar-wrapper .profile-container {
@@ -79,6 +85,7 @@ p {
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
+    color:#fff;
 }
 
 .sidebar-wrapper .tagline {
@@ -188,7 +195,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #47384c;
+    color: #393e54;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -208,7 +215,7 @@ p {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #de6a27;
+    background: #f1631a;
     text-align: center;
     padding-top: 8px;
     font-size: 16px;
@@ -264,6 +271,9 @@ p {
 .main-wrapper .projects-section .item {
     margin-bottom: 15px;
 }
+.main-wrapper .projects-section .item span{
+    color: #2e4049;
+}
 
 .skillset .item {
     margin-bottom: 15px;
@@ -283,7 +293,7 @@ p {
 
 .skillset .level-bar-inner {
     height: 12px;
-    background: #de6a27;
+    background:#f1631a;
 }
 
 .footer {
@@ -298,11 +308,11 @@ p {
 }
 
 .footer .fa-heart {
-    color: #de6a27;
+    color: #f1631a;
 }
 
 .btn-danger{
-    background: #de6a27;
+    background: #f1631a;
 }
 /* Extra small devices (phones, less than 768px) */
 
@@ -368,7 +378,7 @@ p {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #de6a27;
+    background: #f1631a;
     text-align: center;
     padding-top: 8px;
     font-size: 16px;
@@ -380,7 +390,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #de6a27;
+    color: #f1631a;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -396,7 +406,7 @@ h5 {
 
 #dialog {
     width: 200px;
-    background-color: #94D3C8;
+    background-color: #94d3c8;
     color: white;
     position: fixed;
     bottom: 0;
