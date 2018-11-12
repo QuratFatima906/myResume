@@ -45,13 +45,13 @@ p {
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
-    background: #94d3c8; 
+    background: #4F6D7A; 
 
 }
 
 .sidebar-wrapper {
 
-  background: #94d3c8;
+  background: #4F6D7A;
   /*fallback for old browsers */
   /*background: -webkit-linear-gradient(to bottom, #101010 , #2c2c2c);
   background: linear-gradient(to bottom, #101010 , #2c2c2c);
@@ -70,7 +70,7 @@ p {
 }
 
 .sidebar-wrapper a:hover {
-    color: #26756a;
+    color: #C0D6DF;
 }
 
 .sidebar-wrapper .profile-container {
